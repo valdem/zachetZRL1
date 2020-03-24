@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD2375C6242A162800FEED1E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD2375C5242A162800FEED1E /* main.cpp */; };
+		DD2375C6242A162800FEED1E /* struct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD2375C5242A162800FEED1E /* struct.cpp */; };
+		DD2375CD242A16E100FEED1E /* array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD2375CC242A16E100FEED1E /* array.cpp */; };
+		DD2375CF242A170000FEED1E /* basic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD2375CE242A170000FEED1E /* basic.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,9 @@
 
 /* Begin PBXFileReference section */
 		DD2375C2242A162800FEED1E /* zachetZRL1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = zachetZRL1; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD2375C5242A162800FEED1E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DD2375C5242A162800FEED1E /* struct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = struct.cpp; sourceTree = "<group>"; };
+		DD2375CC242A16E100FEED1E /* array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = array.cpp; sourceTree = "<group>"; };
+		DD2375CE242A170000FEED1E /* basic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = basic.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 		DD2375C4242A162800FEED1E /* zachetZRL1 */ = {
 			isa = PBXGroup;
 			children = (
-				DD2375C5242A162800FEED1E /* main.cpp */,
+				DD2375C5242A162800FEED1E /* struct.cpp */,
+				DD2375CC242A16E100FEED1E /* array.cpp */,
+				DD2375CE242A170000FEED1E /* basic.cpp */,
 			);
 			path = zachetZRL1;
 			sourceTree = "<group>";
@@ -119,7 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2375C6242A162800FEED1E /* main.cpp in Sources */,
+				DD2375CF242A170000FEED1E /* basic.cpp in Sources */,
+				DD2375C6242A162800FEED1E /* struct.cpp in Sources */,
+				DD2375CD242A16E100FEED1E /* array.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
